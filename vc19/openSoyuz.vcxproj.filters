@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{1988682c-7f8e-40c0-9fd9-68406dc92a61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\type">
+      <UniqueIdentifier>{a90c39db-4789-4757-ba73-ff386305ad13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{ab702523-65d8-4e05-af28-f502c32f4672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\terminal">
+      <UniqueIdentifier>{d598cbf9-2845-4ae4-b9e5-67959597a287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{876a9304-3bfc-4b82-a80f-4c832e4e8552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\terminal">
+      <UniqueIdentifier>{2667e87f-a65d-4f16-9917-9c30dd8e1c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{7722d71e-2e4a-49d0-8c68-e81559a66690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\type">
+      <UniqueIdentifier>{50e4f3b6-8231-445f-92ee-437c3c79e19e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Font.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\IO.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Process.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Root.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Script.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\SType.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\terminal\TerminalProcess.cpp">
+      <Filter>Source Files\terminal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\terminal\TextLine.cpp">
+      <Filter>Source Files\terminal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\type\BaseType.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\type\Camera.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\type\DataStructureType.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\type\MatType.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\type\Mesh.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\type\Model.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\type\Shader.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\type\SScript.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\type\VecType.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\type\Vertex.cpp">
+      <Filter>Source Files\type</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\TextLetter.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\TextSet.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\core\Font.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\IO.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\Process.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\Root.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\Script.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\SType.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\terminal\TerminalProcess.h">
+      <Filter>Header Files\terminal</Filter>
+    </ClInclude>
+    <ClInclude Include="include\terminal\TextLine.h">
+      <Filter>Header Files\terminal</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type\BaseType.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type\Camera.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type\DataStructureType.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type\MatType.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type\Mesh.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type\Model.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type\Shader.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type\SScript.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type\VecType.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type\Vertex.h">
+      <Filter>Header Files\type</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\TextLetter.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\TextSet.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
